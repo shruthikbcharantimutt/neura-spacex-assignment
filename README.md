@@ -1,6 +1,6 @@
 # neura-robotics-assignment
 # Overview
-This project is a MEVN stack application (MongoDB, Express, Vue 3, Node.js) that displays data from the SpaceX API and allows users to save specific launches to a local database. The application consists of two main screens:
+This project is a MEVN stack application (MongoDB, Express, Vue 3(Nuxt), Node.js) that displays data from the SpaceX API and allows users to save specific launches to a local database. The application consists of two main screens:
 
 Launches Table: Displays a table of the latest 30 SpaceX launches.
 Saved Launches: Displays saved launches in a card format, allowing users to remove them.
@@ -13,10 +13,10 @@ State management using Pinia.
 Interaction with the SpaceX API and local database abstracted via the state manager.
 
 # Technologies Used
-Frontend: Vue 3, Nuxt (optional), Pinia, TypeScript
-Backend: Node.js, Express.js
-Database: MongoDB, Mongoose
-API: SpaceX API v4
+* Frontend: Vue 3, Nuxt, Pinia, TypeScript
+* Backend: Node.js, Express.js
+* Database: MongoDB, Mongoose
+* API: SpaceX API v4
 
 # How to run Backed:
 1. cd backend
