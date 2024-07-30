@@ -31,7 +31,7 @@ npm start
 3. npm run dev
 
 # API Interaction
-Fetch Launches(/): Axios is used to fetch the latest 30 launches from the SpaceX API.
-Save Launch(/save): Axios posts a launch to the backend to save in the database.
-Get Saved Launches(/savedLaunches): Axios gets saved launches from the backend.
-Remove Launch(/delete/:id): Axios deletes a saved launch from the database.
+1. Fetch Launches(/): Axios is used to fetch the latest 30 launches from the SpaceX API.
+2. Save Launch(/save): Axios posts a launch to the backend to save in the database.
+3. Get Saved Launches(/savedLaunches): Axios gets saved launches from the backend.
+4. Remove Launch(/delete/:id): Axios deletes a saved launch from the database.
