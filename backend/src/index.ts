@@ -3,16 +3,21 @@ import mongoose,{ConnectOptions} from 'mongoose';
 import cors from 'cors';
 import bodyParser from 'body-parser';
 import launchRoutes from './routes/launchRoutes';
+import dotenv from 'dotenv';
+
+dotenv.config();
 
 const app = express();
 const port = process.env.PORT || 3001;
+const mongodb_uri=process.env.MONGODB_URI|| "";
 
 app.use(cors());
 app.use(bodyParser.json());
 
 const connectWithRetry = () => {
   console.log('MongoDB connection with retry');
-  mongoose.connect("mongodb://localhost:27017/mevn-spacex", {
+  
+  mongoose.connect(mongodb_uri, {
     useNewUrlParser: true,
     useUnifiedTopology: true,
     serverSelectionTimeoutMS: 5000,

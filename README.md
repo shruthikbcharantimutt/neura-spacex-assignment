@@ -1,1 +1,37 @@
 # neura-robotics-assignment
+# Overview
+This project is a MEVN stack application (MongoDB, Express, Vue 3, Node.js) that displays data from the SpaceX API and allows users to save specific launches to a local database. The application consists of two main screens:
+
+Launches Table: Displays a table of the latest 30 SpaceX launches.
+Saved Launches: Displays saved launches in a card format, allowing users to remove them.
+
+# Features
+Fetch and display the latest 30 SpaceX launches in a table view.
+Save specific launches to a local database.
+Display saved launches in a card view with the option to remove them.
+State management using Pinia.
+Interaction with the SpaceX API and local database abstracted via the state manager.
+
+# Technologies Used
+Frontend: Vue 3, Nuxt (optional), Pinia, TypeScript
+Backend: Node.js, Express.js
+Database: MongoDB, Mongoose
+API: SpaceX API v4
+
+# How to run Backed:
+1. cd backend
+2. npm install
+3. Please add your mongoDB URL to the .env file which is in root  of backend folder
+4. MONGODB_URI=your_mongodb_connection_string (for example:"mongodb://localhost:27017/mevn-spacex")
+npm start
+
+# How to run Frontend:
+1. cd frontend
+2. npm install
+3. npm run dev
+
+# API Interaction
+Fetch Launches(/): Axios is used to fetch the latest 30 launches from the SpaceX API.
+Save Launch(/save): Axios posts a launch to the backend to save in the database.
+Get Saved Launches(/savedLaunches): Axios gets saved launches from the backend.
+Remove Launch(/delete/:id): Axios deletes a saved launch from the database.
