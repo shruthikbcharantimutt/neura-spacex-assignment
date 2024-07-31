@@ -20,9 +20,10 @@ Interaction with the SpaceX API and local database abstracted via the state mana
 
 
 # Prerequistries:
-  1. Please make sure you have installed nodeJS.
-  2. Make sure your MongoDB server is running and accessible from your application.<br/>
-     To download mongoDB server : Go to the MongoDB Download Center(https://www.mongodb.com/try/download/community).
+  1. Node.js: Make sure Node.js is installed on your system. You can download it from Node.js official website(https://nodejs.org/en).
+  2. MongoDB: Make sure MongoDB is installed and running on your system. You can download it from MongoDB official website(https://www.mongodb.com/try/download/community).
+  * Note:Ensure MongoDB server is running. You can start it using the following command:
+
      
 # How to run Backed:
 1. cd backend
@@ -30,6 +31,10 @@ Interaction with the SpaceX API and local database abstracted via the state mana
 3. Please add your mongoDB URL to the .env file which is in root  of backend folder
 4. MONGODB_URI=your_mongodb_connection_string (for example:"mongodb://localhost:27017/mevn-spacex")
 npm start
+
+# Cloning the Project
+  git clone https://github.com/shruthikbcharantimutt/neura-spacex-assignment
+  cd [repository-name](i.e., neura-spacex-assignment)
 
 # How to run Frontend:
 1. cd frontend
