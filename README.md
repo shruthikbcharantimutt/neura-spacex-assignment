@@ -33,8 +33,8 @@ Interaction with the SpaceX API and local database abstracted via the state mana
 npm start
 
 # Cloning the Project
-  git clone https://github.com/shruthikbcharantimutt/neura-spacex-assignment <br/>
-  cd [repository-name](i.e., neura-spacex-assignment)
+  * git clone https://github.com/shruthikbcharantimutt/neura-spacex-assignment 
+  * cd [repository-name](i.e., neura-spacex-assignment)
 
 # How to run Frontend:
 1. cd frontend
