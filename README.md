@@ -18,6 +18,12 @@ Interaction with the SpaceX API and local database abstracted via the state mana
 * Database: MongoDB, Mongoose
 * API: SpaceX API v4
 
+
+# Prerequistries:
+  1. Please make sure you have installed nodeJS.
+  2. Make sure your MongoDB server is running and accessible from your application.<br/>
+     To download mongoDB server : Go to the MongoDB Download Center(https://www.mongodb.com/try/download/community).
+     
 # How to run Backed:
 1. cd backend
 2. npm install
