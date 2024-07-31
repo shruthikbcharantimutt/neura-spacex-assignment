@@ -47,7 +47,29 @@ Interaction with the SpaceX API and local database abstracted via the state mana
 3. npm run dev
 
 # API Interaction
-1. Fetch Launches(/): Axios is used to fetch the latest 30 launches from the SpaceX API.
-2. Save Launch(/save): Axios posts a launch to the backend to save in the database.
-3. Get Saved Launches(/savedLaunches): Axios gets saved launches from the backend.
-4. Remove Launch(/delete/:id): Axios deletes a saved launch from the database.
+
+Base URL: http://localhost:3001/api/launches
+
+1.Fetch Launches (/)
+
+* URL: http://localhost:3001/api/launches/
+* Description: Axios is used to fetch the latest 30 launches from the SpaceX API.
+* Method: GET
+
+2. Save Launch (/save)
+
+* URL: http://localhost:3001/api/launches/save
+* Description: Axios posts a launch to the backend to save in the database.
+* Method: POST
+
+3. Get Saved Launches (/savedLaunches)
+
+* URL: http://localhost:3001/api/launches/savedLaunches
+* Description: Axios gets saved launches from the backend.
+* Method: GET
+
+4. Remove Launch (/delete/:id)
+
+* URL: http://localhost:3001/api/launches/delete/:id
+* Description: Axios deletes a saved launch from the database.
+* Method: DELETE
